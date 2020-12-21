@@ -1,10 +1,12 @@
 {
   "name": "page-playground-ext",
+  "publisher": "lif3ng",
+  "repository": "https://github.com/lif3ng/page-playground-ext",
 	"displayName": "page playground",
 	"description": "page playground by HTML,CSS",
 	"version": "0.0.1",
 	"engines": {
-		"vscode": "^1.52.0"
+		"vscode": "^1.51.0"
 	},
 	"categories": [
 		"Other"
@@ -26,7 +28,7 @@
 		"test": "node ./test/runTest.js"
 	},
 	"devDependencies": {
-        "@types/vscode": "^1.52.0",
+        "@types/vscode": "^1.51.0",
         "@types/glob": "^7.1.3",
         "@types/mocha": "^8.0.4",
         "@types/node": "^12.11.7",
